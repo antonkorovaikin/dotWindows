@@ -54,3 +54,5 @@ alias vs='devenv'
 alias vssln='devenv **/*.sln &'
 
 alias man='~/.bin/man.sh'
+
+alias task='wsl task'
