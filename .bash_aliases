@@ -54,5 +54,3 @@ alias vs='devenv'
 alias vssln='devenv **/*.sln &'
 
 alias man='~/.bin/man.sh'
-
-alias gitconfigs='git --git-dir=$HOME/configs/ --work-tree=$HOME'
