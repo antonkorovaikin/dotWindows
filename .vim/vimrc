@@ -1,0 +1,30 @@
+nnoremap <SPACE> <Nop>
+let mapleader=" "
+
+source $VIMRUNTIME/defaults.vim
+
+"call plug#begin('~/.vim/plugged')
+"Plug 'junegunn/vim-easy-align'
+"Plug 'scrooloose/nerdtree'
+"call plug#end()
+
+if has('syntax') && has('eval')
+    packadd! matchit
+endif
+
+set nobackup
+set relativenumber
+set number
+set hlsearch
+set smartcase
+set autoindent
+set novisualbell 
+set colorcolumn=80,100,120
+set tabstop=4
+set expandtab 
+set shiftwidth=4
+
+filetype on
+filetype plugin on
+filetype indent on
+
