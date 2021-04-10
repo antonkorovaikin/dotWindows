@@ -1,6 +1,7 @@
-# dotfiles for Windows
+# DotFiles for Windows
+My Windows settings
 
-some useful commands to work with repository:
+## some useful commands to work with repository:
 ``` bash
 git clone --bare https://github.com/antonkorovaikin/dotWindows.git
 alias config='git --git-dir=$HOME/dotWindows.git/ --work-tree=$HOME' 
